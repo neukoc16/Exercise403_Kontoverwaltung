@@ -26,6 +26,8 @@ public class KontoGUI extends javax.swing.JFrame {
         jTextArea1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1), "Log"));
         jScrollPane1.setViewportView(jTextArea1);
 
+        jLabel1.setFont(new java.awt.Font("Courier New", 1, 24)); // NOI18N
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabel1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Balance"));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
